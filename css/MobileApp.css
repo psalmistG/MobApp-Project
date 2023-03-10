@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.navbarBg{
+    background: #5b0a7a;
+    background: linear-gradient(to right, #5b0a7a, #cc0874);  
+}
+
+.BgNavbar{
+    height: 100vh;
+    background: #5b0a7a;
+    background: linear-gradient(to bottom right, #5b0a7a, #cc0874);
+    overflow: hidden;
+}
+
+.firstCard{
+    background-color: #E0E0E0;
+}
+
+.firstCard h3{
+    color: #845aa0;
+}
+
+.bordLeft{
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-image:  linear-gradient(to bottom, #5b0a7a, #cc0874)1 100%;
+}
+
+/* .bordI{
+    font-size: 50px;
+    color: black;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #5b0a7a, #cc0874);
+    background-clip: text;
+} */
+
+.pr{
+    width: 70px;
+    height: 70px;
+    font-weight: 500;
+    color: #cc0874;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-right: 50px;
+    padding-top: 5px;
+  }
+
+.borderC{
+    border-left: 3px solid #E0E0E0 ;
+}
+
+.Round{
+    border: 0px solid white;
+    border-radius: 10px ;
+}
+
+.effect p{
+    color: #918c8c;
+    margin: 25px;
+}
+#effectC{
+    color: blue;
+    font-size: 15px;
+    font-weight: lighter;
+}
+h1{
+    font-size: 70px;
+}
+h2  {
+    color: #5b0a7a;
+}
+
+h3{
+    color: #5b0a7a;
+}
+
+h4{
+    color: #5b0a7a;
+}
+
+.btRm{
+    background-color: #cc0874;
+    border-radius: 3px;
+    padding-bottom: 8px;
+}
+
+.effect small{
+    color: #5b0a7a;
+    font-size: 24px;
+}
+
+.effect span{
+    font-size: 48px;
+    font-weight: 500;
+    color: #5b0a7a;
+}
+.effect button{
+    background-color: #cc0874;
+}
+
+.bordTop{
+    border-top-width: 3px;
+    border-color: #ce75b4 #faf6fb #FFF;
+    box-shadow: 0px 12px 59px 0px rgba(36, 7, 31, 0.11);
+    color: #522d7a;
+}
+
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 60px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #e7d9eb;
+    width: 35px;
+    height: 8px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff487e;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #ff487e;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+}
+
+/*  IMAGE GALLERY
+----------------------*/
+
+.img-gallery .owl-item {
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+    transform: scale(0.8);
+    transition: all 0.3s ease-in;
+}
+
+.img-gallery .owl-item.center {
+    transform: scale(1);
+}
